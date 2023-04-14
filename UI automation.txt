@@ -13,6 +13,7 @@ Thread.sleep(2000);
 driver.findElement(By.name("field-keywords")).sendKeys("Iphone");
 Thread.sleep(10000);
 driver.findElement(By.id("nav-search-submit-text")).click();
+Assert.assertTrue(driver.findElement(By.xpath("(//*[@cel_widget_id='MAIN-SEARCH_RESULTS-2']//span)[2]")).getText().contains("Apple iphone"), "Apple iPhone text should present in the first element");
 System.out.println(driver.getTitle());
 driver.close();
 }
