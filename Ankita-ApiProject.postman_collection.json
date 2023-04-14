@@ -1,0 +1,1096 @@
+{
+	"info": {
+		"_postman_id": "8d34a167-75f4-4526-b527-f68452b41dc0",
+		"name": "Ankita-ApiProject",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10147257"
+	},
+	"item": [
+		{
+			"name": "Api_call",
+			"item": [
+				{
+					"name": "getRequestforuser2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/users/2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"2"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "getRequestforuser2",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://reqres.in/api/users/2",
+									"protocol": "https",
+									"host": [
+										"reqres",
+										"in"
+									],
+									"path": [
+										"api",
+										"users",
+										"2"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Thu, 13 Apr 2023 08:03:57 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Etag",
+									"value": "W/\"118-pbdwwFo9SKNhD3Lx5iHJyngpq00\""
+								},
+								{
+									"key": "Via",
+									"value": "1.1 vegur"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "max-age=14400"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "MISS"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=%2Bhooe1vA2VOkUy78I6GOzMxk3VjKFruB68k83Q0JHIN9CobMdzkwSw1APQ%2BYT6sgC0qmtnxpOSVbXvcR0%2B9Ywv5QjO%2FReKawEY%2BQazeFmDV1tixLiGRnysgw1w%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "7b72320d9993801d-IAD"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "br"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"id\": 2,\n        \"email\": \"janet.weaver@reqres.in\",\n        \"first_name\": \"Janet\",\n        \"last_name\": \"Weaver\",\n        \"avatar\": \"https://reqres.in/img/faces/2-image.jpg\"\n    },\n    \"support\": {\n        \"url\": \"https://reqres.in/#support-heading\",\n        \"text\": \"To keep ReqRes free, contributions towards server costs are appreciated!\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "postRequestForUser",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Ankita Kumari\",\r\n    \"job\": \"Team leader\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/users",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "postRequestForUser",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Ankita Kumari\",\r\n    \"job\": \"Team leader\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://reqres.in/api/users",
+									"protocol": "https",
+									"host": [
+										"reqres",
+										"in"
+									],
+									"path": [
+										"api",
+										"users"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Thu, 13 Apr 2023 07:41:01 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "94"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Etag",
+									"value": "W/\"5e-8ECHX7EZZY6OmVEQ4IbEAwHcioM\""
+								},
+								{
+									"key": "Via",
+									"value": "1.1 vegur"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=ScTNrXv3SLue16B4qf04%2FxCf2bT8dJp6fN1a3l2%2BtK6M86%2BNlpLRJdUX%2B9s7Xbl5OZESpI79Whi8BxwO4aR92F%2FcCXlJWsf%2BpMBo4O7EuJ77Wc0TLZ2oLZmJNQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "7b7210751cbd9c30-IAD"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"name\": \"Ankita Kumari\",\n    \"job\": \"Team leader\",\n    \"id\": \"435\",\n    \"createdAt\": \"2023-04-13T07:41:01.766Z\"\n}"
+						}
+					]
+				},
+				{
+					"name": "putRequestForUser2",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Hunny\",\r\n    \"job\": \"Software Developer\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/users/2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"2"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "putRequestForUser2",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Hunny\",\r\n    \"job\": \"Software Developer\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://reqres.in/api/users/2",
+									"protocol": "https",
+									"host": [
+										"reqres",
+										"in"
+									],
+									"path": [
+										"api",
+										"users",
+										"2"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Thu, 13 Apr 2023 07:32:04 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Etag",
+									"value": "W/\"52-T/1xfWdlNPJEluFulKSvxxyoWmc\""
+								},
+								{
+									"key": "Via",
+									"value": "1.1 vegur"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=ADJvVyDu2OdFKax%2Bl3jkXOze6G1gUXzFWv366%2BF2rT0ph8tWF9XS7OarbBmwQy3KR4vgO2zBwdmYwYxaKp5B9yGN55yGyyYBmNMqBrnc36z3UBldxB2DLP0Xcw%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "7b720355bdbe2d16-IAD"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "br"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"name\": \"Hunny\",\n    \"job\": \"Software Developer\",\n    \"updatedAt\": \"2023-04-13T07:32:04.258Z\"\n}"
+						}
+					]
+				},
+				{
+					"name": "deleteRequestForUser2",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/users/2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"2"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "deleteRequestForUser2",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://reqres.in/api/users/2",
+									"protocol": "https",
+									"host": [
+										"reqres",
+										"in"
+									],
+									"path": [
+										"api",
+										"users",
+										"2"
+									]
+								}
+							},
+							"status": "No Content",
+							"code": 204,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Thu, 13 Apr 2023 07:42:05 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "0"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Etag",
+									"value": "W/\"2-vyGp6PvFo4RvsFtPoIWeCReyIC8\""
+								},
+								{
+									"key": "Via",
+									"value": "1.1 vegur"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=okQwHs73%2BwN8CnRdhbB3cgl8R6%2B%2BYp8F%2FHCW%2F%2Ff9ADgiCxnC7AuHOZqzccSFCJVPdOdZtXzrY0qsBXXq18t6N9S3RUB41dZ5eXv9xXRJOEqKDI6Lt1WFLW1bIQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "7b7212016abb7fbe-IAD"
+								}
+							],
+							"cookie": [],
+							"body": null
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "JsonPlaceHolder",
+			"item": [
+				{
+					"name": "GetRquestUser1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/users?id=1",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"users"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "GetRquestUser1",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://jsonplaceholder.typicode.com/users?id=1",
+									"protocol": "https",
+									"host": [
+										"jsonplaceholder",
+										"typicode",
+										"com"
+									],
+									"path": [
+										"users"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Thu, 13 Apr 2023 08:18:07 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "X-Ratelimit-Limit",
+									"value": "1000"
+								},
+								{
+									"key": "X-Ratelimit-Remaining",
+									"value": "999"
+								},
+								{
+									"key": "X-Ratelimit-Reset",
+									"value": "1681373928"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "max-age=43200"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Etag",
+									"value": "W/\"22f-l/Eoj4zYmvire0cm5iBTWDS+4F8\""
+								},
+								{
+									"key": "Via",
+									"value": "1.1 vegur"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "EXPIRED"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=J7MbsI2pd5B9VYIb6jQIfiKy7PbGJC7h2pUivmbk4uACH9DlWYCB2ziZpw3uAElHpm4oOBUcByGh1EuJ%2Bes8PotycDEJ7Eh4CuD25%2FUPKscwroXiM4EBDJs4FIsQp674xz62yFMDTdxesgsmtnB1\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "7b7246c9f90ee75a-DFW"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "br"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"Leanne Graham\",\n        \"username\": \"Bret\",\n        \"email\": \"Sincere@april.biz\",\n        \"address\": {\n            \"street\": \"Kulas Light\",\n            \"suite\": \"Apt. 556\",\n            \"city\": \"Gwenborough\",\n            \"zipcode\": \"92998-3874\",\n            \"geo\": {\n                \"lat\": \"-37.3159\",\n                \"lng\": \"81.1496\"\n            }\n        },\n        \"phone\": \"1-770-736-8031 x56442\",\n        \"website\": \"hildegard.org\",\n        \"company\": {\n            \"name\": \"Romaguera-Crona\",\n            \"catchPhrase\": \"Multi-layered client-server neural-net\",\n            \"bs\": \"harness real-time e-markets\"\n        }\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "postRequestUsers",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "  {\r\n    \"name\": \"Ankita kumari\",\r\n    \"username\": \"Anki\",\r\n    \"email\": \"anki@april.biz\",\r\n    \"address\": {\r\n      \"street\": \"Kulas Light\",\r\n      \"suite\": \"Apt. 556\",\r\n      \"city\": \"Gwenborough\",\r\n      \"zipcode\": \"92998-3874\",\r\n      \"geo\": {\r\n        \"lat\": \"-37.3159\",\r\n        \"lng\": \"81.1496\"\r\n      }\r\n    },\r\n    \"phone\": \"1-770-736-8031 x56442\",\r\n    \"website\": \"hildegard.org\",\r\n    \"company\": {\r\n      \"name\": \"Romaguera-Crona\",\r\n      \"catchPhrase\": \"Multi-layered client-server neural-net\",\r\n      \"bs\": \"harness real-time e-markets\"\r\n    }\r\n  }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/users",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "postRequestUsers",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "  {\r\n    \"name\": \"Ankita kumari\",\r\n    \"username\": \"Anki\",\r\n    \"email\": \"anki@april.biz\",\r\n    \"address\": {\r\n      \"street\": \"Kulas Light\",\r\n      \"suite\": \"Apt. 556\",\r\n      \"city\": \"Gwenborough\",\r\n      \"zipcode\": \"92998-3874\",\r\n      \"geo\": {\r\n        \"lat\": \"-37.3159\",\r\n        \"lng\": \"81.1496\"\r\n      }\r\n    },\r\n    \"phone\": \"1-770-736-8031 x56442\",\r\n    \"website\": \"hildegard.org\",\r\n    \"company\": {\r\n      \"name\": \"Romaguera-Crona\",\r\n      \"catchPhrase\": \"Multi-layered client-server neural-net\",\r\n      \"bs\": \"harness real-time e-markets\"\r\n    }\r\n  }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://jsonplaceholder.typicode.com/users",
+									"protocol": "https",
+									"host": [
+										"jsonplaceholder",
+										"typicode",
+										"com"
+									],
+									"path": [
+										"users"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Thu, 13 Apr 2023 08:09:41 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "507"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "X-Ratelimit-Limit",
+									"value": "1000"
+								},
+								{
+									"key": "X-Ratelimit-Remaining",
+									"value": "998"
+								},
+								{
+									"key": "X-Ratelimit-Reset",
+									"value": "1681373388"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, X-HTTP-Method-Override, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "Access-Control-Expose-Headers",
+									"value": "Location"
+								},
+								{
+									"key": "Location",
+									"value": "http://jsonplaceholder.typicode.com/users/11"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Etag",
+									"value": "W/\"1fb-X2XVw2oUEsy76l1vtDC0snPOGUw\""
+								},
+								{
+									"key": "Via",
+									"value": "1.1 vegur"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=gm8Vcoti74Vf%2FoNRZyxXtHfrHzd6f2z9rjTQ9FQwaVProSAWEDCBap02ZVeTJq8FrplU95AteIeHV%2F6iVmB4GJTbQSehqeEPoqmNUge66FRKjF%2BmeiRRSx1zQJ9bR0xAU%2FJ7wHmhhNRz7E%2B9QR6Q\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "7b723a702c5f2cac-DFW"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"name\": \"Ankita kumari\",\n    \"username\": \"Anki\",\n    \"email\": \"anki@april.biz\",\n    \"address\": {\n        \"street\": \"Kulas Light\",\n        \"suite\": \"Apt. 556\",\n        \"city\": \"Gwenborough\",\n        \"zipcode\": \"92998-3874\",\n        \"geo\": {\n            \"lat\": \"-37.3159\",\n            \"lng\": \"81.1496\"\n        }\n    },\n    \"phone\": \"1-770-736-8031 x56442\",\n    \"website\": \"hildegard.org\",\n    \"company\": {\n        \"name\": \"Romaguera-Crona\",\n        \"catchPhrase\": \"Multi-layered client-server neural-net\",\n        \"bs\": \"harness real-time e-markets\"\n    },\n    \"id\": 11\n}"
+						}
+					]
+				},
+				{
+					"name": "putRequestUser",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "  {\r\n    \"id\":\"1\",\r\n    \"name\": \"Hunny kumari\",\r\n    \"username\": \"Hy\",\r\n    \"email\": \"Hunny@april.biz\",\r\n    \"address\": {\r\n      \"street\": \"Kulas Light\",\r\n      \"suite\": \"Apt. 556\",\r\n      \"city\": \"Gwenborough\",\r\n      \"zipcode\": \"92998-3874\",\r\n      \"geo\": {\r\n        \"lat\": \"-37.3159\",\r\n        \"lng\": \"81.1496\"\r\n      }\r\n    },\r\n    \"phone\": \"1-770-736-8031 x56442\",\r\n    \"website\": \"hildegard.org\",\r\n    \"company\": {\r\n      \"name\": \"Romaguera-Crona\",\r\n      \"catchPhrase\": \"Multi-layered client-server neural-net\",\r\n      \"bs\": \"harness real-time e-markets\"\r\n    }\r\n  }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/users/1",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"users",
+								"1"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "putRequestUser",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "  {\r\n    \"id\":\"1\",\r\n    \"name\": \"Hunny kumari\",\r\n    \"username\": \"Hy\",\r\n    \"email\": \"Hunny@april.biz\",\r\n    \"address\": {\r\n      \"street\": \"Kulas Light\",\r\n      \"suite\": \"Apt. 556\",\r\n      \"city\": \"Gwenborough\",\r\n      \"zipcode\": \"92998-3874\",\r\n      \"geo\": {\r\n        \"lat\": \"-37.3159\",\r\n        \"lng\": \"81.1496\"\r\n      }\r\n    },\r\n    \"phone\": \"1-770-736-8031 x56442\",\r\n    \"website\": \"hildegard.org\",\r\n    \"company\": {\r\n      \"name\": \"Romaguera-Crona\",\r\n      \"catchPhrase\": \"Multi-layered client-server neural-net\",\r\n      \"bs\": \"harness real-time e-markets\"\r\n    }\r\n  }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://jsonplaceholder.typicode.com/users/1",
+									"protocol": "https",
+									"host": [
+										"jsonplaceholder",
+										"typicode",
+										"com"
+									],
+									"path": [
+										"users",
+										"1"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Thu, 13 Apr 2023 08:17:45 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "X-Ratelimit-Limit",
+									"value": "1000"
+								},
+								{
+									"key": "X-Ratelimit-Remaining",
+									"value": "997"
+								},
+								{
+									"key": "X-Ratelimit-Reset",
+									"value": "1681373868"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Etag",
+									"value": "W/\"1f8-6WSTM4BVfTKmuz1OKO5q2sgp6nA\""
+								},
+								{
+									"key": "Via",
+									"value": "1.1 vegur"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=xOdrTy7X%2FEyJBB5JZM9IegJpLZ32ht67czXeUiA6TzBlcTl%2F1HsudbBpURuQrwscy%2FfMxoa1feMDHKSmMVFhLJsoNmiQ7NRQ15j1fM9XJNTyv5lcx0FKzutm9Ot%2BlimCJ8D9ZjOy40vZmV9%2F8SB0\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "7b7246414a4f2c9a-DFW"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "br"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 1,\n    \"name\": \"Hunny kumari\",\n    \"username\": \"Hy\",\n    \"email\": \"Hunny@april.biz\",\n    \"address\": {\n        \"street\": \"Kulas Light\",\n        \"suite\": \"Apt. 556\",\n        \"city\": \"Gwenborough\",\n        \"zipcode\": \"92998-3874\",\n        \"geo\": {\n            \"lat\": \"-37.3159\",\n            \"lng\": \"81.1496\"\n        }\n    },\n    \"phone\": \"1-770-736-8031 x56442\",\n    \"website\": \"hildegard.org\",\n    \"company\": {\n        \"name\": \"Romaguera-Crona\",\n        \"catchPhrase\": \"Multi-layered client-server neural-net\",\n        \"bs\": \"harness real-time e-markets\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "deleteRequestUser",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/users/1",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"users",
+								"1"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "deleteRequestUser",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://jsonplaceholder.typicode.com/users/1",
+									"protocol": "https",
+									"host": [
+										"jsonplaceholder",
+										"typicode",
+										"com"
+									],
+									"path": [
+										"users",
+										"1"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Thu, 13 Apr 2023 08:28:28 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "2"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "X-Ratelimit-Limit",
+									"value": "1000"
+								},
+								{
+									"key": "X-Ratelimit-Remaining",
+									"value": "999"
+								},
+								{
+									"key": "X-Ratelimit-Reset",
+									"value": "1681374528"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Etag",
+									"value": "W/\"2-vyGp6PvFo4RvsFtPoIWeCReyIC8\""
+								},
+								{
+									"key": "Via",
+									"value": "1.1 vegur"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=rEoxOmYO371Qmuyz4qdVvH%2BxNsuc9Je5NboukbQN7jdaZvnTiH%2BQIfnrghglFPAIiCgByeFw93cjC410v7%2BZ2ewjMmB5oYjaflH90rwEBphplA5tSXS8z1wVRgUIYAQ9ged2GfA517nE%2B36sPkMI\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "7b7255f72b492e61-DFW"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": "{}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
